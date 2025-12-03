@@ -8,7 +8,6 @@ void setup() {
 void loop() {
     Serial.println();     // Print a blank line
     int chk = DHT11.read(DHT11PIN);   // Read data from DHT11 sensor
-    
     Serial.print("Humidity (%): ");
     Serial.println((float)DHT11.humidity, 2);
     Serial.print("Temperature (C): ");
