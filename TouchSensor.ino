@@ -16,6 +16,5 @@ void loop() {
     digitalWrite(buzz,LOW);
     Serial.println("Not Touched!");
   }
-  
  delay(100);
 }
