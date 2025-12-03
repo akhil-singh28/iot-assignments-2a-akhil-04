@@ -23,8 +23,7 @@ void setup() {
   display.println("OLED with Arduino");
   display.println("Hello BCA 2A Section");
   display.println("How may I help You?");
-
-
+  
   display.display();                  // Show on OLED
 }
 void loop() {
