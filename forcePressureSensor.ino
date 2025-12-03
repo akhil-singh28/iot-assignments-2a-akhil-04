@@ -14,5 +14,6 @@ void loop(){
   }
   Serial.print("sensor = ");
   Serial.println(sensor);
+  
   delay(100); // Wait for 100 millisecond(s)
 }
