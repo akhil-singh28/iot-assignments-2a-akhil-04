@@ -4,7 +4,6 @@
 
 #define SCREEN_WIDTH 128 // OLED width
 #define SCREEN_HEIGHT 64 // OLED height
-
 // Create display object with I2C address 0x3C
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
