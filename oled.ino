@@ -29,7 +29,6 @@ void setup() {
 
   display.display();                  // Show on OLED
 }
-
 void loop() {
   // Nothing to loop
 }
