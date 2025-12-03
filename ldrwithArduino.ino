@@ -1,6 +1,7 @@
 int LDR_Pin = A0;       // LDR connected to analog pin A0
 int LDR_Value = 0;      // Variable to store light value
 
+
 void setup() {
     Serial.begin(9600);   // Start serial monitor
     pinMode(13, OUTPUT);  // Set pin 13 as output
