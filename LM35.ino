@@ -1,6 +1,7 @@
 int sensorPin=A0;
 float tempC;
 float tempF;
+
 void setup(){
   Serial.begin(9600);
 }
